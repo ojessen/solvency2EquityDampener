@@ -1,3 +1,9 @@
+#' Calculate the dampener
+#'
+#' @param to The final date for which the index is calculated
+#' @return xts value of length 1 with the size of the dampener effect
+#' @examples calculate_dampener()
+
 calculate_dampener = function(to = Sys.Date()){
   to = as.Date(to)
   s2_index = load_data(to)
