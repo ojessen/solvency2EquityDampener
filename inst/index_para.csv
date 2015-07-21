@@ -1,0 +1,12 @@
+name;symbol;src;wheight
+AEX;^AEX;yahoo;0.14
+CAC40;^FCHI;yahoo;0.14
+DAX;^GDAXI;yahoo;0.14
+FTSE_All;^FTAS;yahoo;0.14
+FTSE_MIB;FTSEMIB.MI;yahoo;0.08
+IBEX35;^IBEX;yahoo;0.08
+NIKKEI225;^N225;yahoo;0.02
+OMX_Stockholm_30;^OMX;yahoo;0.08
+SP500;^GSPC;yahoo;0.08
+SMI;^SSMI;yahoo;0.02
+WIG30;WSE%3AWIG30;google;0.08
