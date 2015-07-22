@@ -1,12 +1,10 @@
 options(stringsAsFactors = FALSE)
 setInternet2(TRUE)
 
-load_data = function(to = Sys.Date()){
+load_data = function(to = Sys.Date(), index_para){
   library(quantmod)
 
   from = seq.Date(to, by = "-3 years", length.out = 2)[2] + 1
-  index_para = load_index_para()
-
 
   for(nm in 1:nrow(index_para)){
     tmp = getSymbols(index_para$symbol[nm], to = to, from = from, src = index_para$src[nm], auto.assign = FALSE)
