@@ -4,7 +4,7 @@
 \alias{calculate_dampener}
 \title{Calculate the dampener}
 \usage{
-calculate_dampener(to = Sys.Date())
+calculate_dampener(s2_index)
 }
 \arguments{
 \item{to}{The final date for which the index is calculated}
@@ -16,6 +16,7 @@ xts value of length 1 with the size of the dampener effect
 Calculate the dampener
 }
 \examples{
+s2_index = load_data()
 calculate_dampener()
 }
 

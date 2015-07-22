@@ -1,10 +1,12 @@
 Package: solvency2EquityDampener
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Calculate the equity dampener for Solvency II standard formula
 Version: 0.1
-Date: 2015-07-13
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Date: 2015-07-22
+Author: Owe Jessen
+Maintainer: Owe Jessen <post@owejessen.de>
+Description:  Calculate the equity dampener for Solvency II standard formula, according to EIOPA standards.
+License: MIT
 LazyData: TRUE
+Imports:
+  quantmod, ggplot2
